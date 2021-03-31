@@ -1,0 +1,4 @@
+FROM docker-release-local.artifactory-lvn.broadcom.net/broadcom-images/redhat/python:3
+USER 0
+RUN pip install junit2influx
+USER 1010
